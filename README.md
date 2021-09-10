@@ -6,7 +6,8 @@ Resource-disaggregated architectures have risen in popularity for large datacent
 
 This paper presents Semeru, a distributed JVM that can dramatically improve the performance of managed cloud applications in a memory-disaggregated environment. Its design possesses three major innovations: (1) a universal Java heap, which provides a unified abstraction of virtual memory across CPU and memory servers and allows any legacy program to run without modifications; (2) a distributed GC, which offloads object tracing to memory servers so that tracing is performed closer to data; and (3) a swap system in the OS kernel that works with the runtime to swap page data efficiently. An evaluation of Semeru on a set of widely-deployed systems shows very promising results.
 ## Team 
-This project is done in collaboration with Professor [Harry Xu](http://web.cs.ucla.edu/~harryxu/)'s group at UCLA. 
+This project is done in collaboration with Professor [Harry Xu](http://web.cs.ucla.edu/~harryxu/)'s group at UCLA. Please follow a link to Semeru project repository at UCLA Systems [here](https://github.com/uclasystem/Semeru)
+
 
 ## How to cite 
 Please refer to our OSDI'20 paper, [Semeru: A Memory-Disaggregated Managed Runtime](https://www.usenix.org/conference/osdi20/presentation/wang) for more details. 
@@ -26,6 +27,4 @@ month = nov,
 
 ## Video
 You can watch a FSE'20 presentation video [here](https://youtu.be/MFA3MmNDKaM)
-## Repository Link 
-This project repository is linked [here](https://github.com/uclasystem/Semeru)
  
