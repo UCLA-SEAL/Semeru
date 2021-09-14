@@ -24,7 +24,6 @@ url = {https://www.usenix.org/conference/osdi20/presentation/wang},
 publisher = {{USENIX} Association},
 month = nov,
 }
-[DOI Link](https://dl.acm.org/doi/10.1145/3468264.3468610)
 
 ## Video
 You can watch a OSDI'20 presentation video [here](https://youtu.be/MFA3MmNDKaM)
